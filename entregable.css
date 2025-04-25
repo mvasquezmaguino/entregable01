@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.menu {
+  background-color: #e4002b;
+  padding: 5px 0;
+  top: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)
+  position: sticky;
+  z-index: 999;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 10px 40px 10px 40px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+
+.apartado a:hover {
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+  background-color: #f7bc00;
+  color: #e4002b;
+}
+  
+.capa-video {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  margin-top: 5px; 
+}
+
+.capa-video video {
+  object-fit: cover;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+  
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.portada {
+  padding: 50px 0 80px 0;
+  color: white;
+  background-color: #e4002b;
+  text-align: center;
+  justify-content: center;
+}
+
+.titulo{
+  font-family: "Great Vibes";
+  font-size: 100px;
+  margin-bottom: 0;
+}
+
+.subtitulo {
+  margin-top: 10px;
+  font-family: 'Roboto';
+  font-size: 45px;
+}
+
+.logo {
+  border-radius: 25px;
+  width: 550px;
+}
+
+.info {
+  font-family: 'Roboto';
+  margin: auto;
+  text-align: center;
+  max-width: 900px;
+}
+
+.info h3 {
+  color: #e4002b;
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+.info p {
+  color: rgb(80, 80, 80);
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+.fotos {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+  
+.fotos img {
+  object-fit: cover;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.fotos img:hover {
+  transition: transform 0.3s ease;
+  transform: scale(1.05);
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 25px;
+  padding: 15px;
+  color: #25D366;
+  font-size: 70px;
+}
+  
+.whatsapp:hover {
+  transition: transform 0.3s ease;
+  transform: scale(1.1);
+}
